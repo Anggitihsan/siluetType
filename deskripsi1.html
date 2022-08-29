@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image" href="./assets/img/page-icon.png">
+    <link id="stylesheet" rel="stylesheet" href="./assets/style-deskripsi.css">
+    <title>SiluetType - Home Sweet Home</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="./index.html" class="nav-logo">Siluet<span>Type</span></a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="./index.html#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="./index.html#gallery" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="./index.html#contact" class="nav-link">Contact</a></li>
+                </ul>
+
+                <div class="nav-close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+            <div class="nav-grid" id="nav-grid">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="tes"></div>
+
+        <article id="gallery" class="card">
+            <div class="container">
+                <h1>Home Sweet Home</h1>
+                <div class="gallery-flex">
+                    <div class="photo-item">
+                        <img href src="./assets/img/1.jpg" alt="">
+                    </div>
+                    <div class="photo-item">
+                        <img src="./assets/img/desk1_1.jpg" alt="">
+                    </div>
+                    <div class="photo-item">
+                        <img src="./assets/img/desk1_2.jpg" alt="">
+                    </div>
+                    <div class="photo-item">
+                        <img src="./assets/img/desk1_3.jpg" alt="">
+                    </div>
+                    <div class="photo-item">
+                        <img src="./assets/img/desk1_4.jpg" alt="">
+                    </div>
+                    <div class="photo-item">
+                        <img src="./assets/img/desk1_5.jpg" alt="">
+                    </div>
+                </div>
+                <p>Ini adalah project gabut gw selama liburan sebelum masuk kuliah, yaa hitung-hitung nambah dekorasi kamar biar makin betah di kamar ye kan. Ini gw buat setelah lulus dari SMA gw di Kuningan, yang mana pas di SMA gw itu, gw jadi tim dekorasi perpisahannya, di situ gw juga ikut bikin <i>wall of fame</i> dengan hand lettering bertuliskan <b><a href="./deskripsi2.html">Haflah Attakhorruj</a></b>. Jadi, masih ada semangat buat bikin karya (baca: nguli) lagi wkwk. Ini gw buat pake cat tembok kiloan seharga 15rb an per-kilonya yang gw beli di ruko deket pasar di Karawang. Cuma dengan beli 4 warna cat, yaitu: pink muda, merah maroon, biru agak tua, dan putih, gw bisa bikin hand lettering dengan 7 warna, soalnya gw campur-campurin tuh catnya biar hemat wkwk. Jadi, gitu deh, kalo kamar lu mau gw cat juga ga? kabarin ae xixixi </p>
+            </div>
+        </article>
+
+        <div id="mode-button" class="mode-button" onclick="changeMode()">Dark Mode</div>
+    </main>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer">
+                <div class="footer-flex">
+                    <div class="footer-item"><a href="https://www.instagram.com/siluettype/" target="_blank"><i class='bx bxl-instagram-alt' ></i></a></div>
+                    <div class="footer-item"><a href="https://www.linkedin.com/in/anggit-ihsananto-60110921b/" target="_blank"><i class='bx bxl-linkedin-square'></i></a></div>
+                    <div class="footer-item"><i id="email" onclick="emailCopy()" class='bx bxl-gmail'></i></div>
+                    <div class="footer-item"><a href="https://facebook.com/anggit.ihsananto/" target="_blank"><i class='bx bxl-facebook'></i></a></div>
+                </div>
+                <div>
+                    <p>Special thanks to:</p>
+                    <p><b>Dicoding & IDCamp</b></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/deskripsi.js"></script>
+</body>
+</html>

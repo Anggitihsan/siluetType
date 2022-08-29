@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link id="stylesheet" rel="stylesheet" href="assets/style.css">
+    <link rel="icon" type="image" href="./assets/img/page-icon.png">
+    <title>SiluetType</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="#main" class="nav-logo">Siluet<span>Type</span></a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#main" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+
+                <div class="nav-close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+            <div class="nav-grid" id="nav-grid">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="main">
+            <section class="hero">
+                <div class="hero-container container">
+                    <div class="hero-content">
+                        <span class="hero-subtitle">Welcome to...</span>
+                        <h1 class="hero-title">SiluetType Official</h1>
+                        <span class="hero-subtitle">Well, obviously you have a good taste.</span>
+                        <div id="hero-button" class="hero-button" onclick="changeMode()">Dark Mode</div>
+                    </div>
+                    <div class="hero-img">
+                        <img id="hero-logo" src="./assets/img/logo.png" alt="SiluetType logo">
+                        <div class="img-shadow"></div>
+                    </div>
+                </div>
+            </section>
+
+            <article id="about" class="card">
+                <h2>About</h2>
+                <p>Halo, saya Anggit. Saya adalah seseorang yang memiliki hobi menggambar, khususnya pada bidang <i>hand lettering</i>, yaitu seni <i>typography</i> yang biasanya dibuat di atas kertas. Hobi ini bermula ketika saya duduk di bangku SMP. Saya melihat teman saya jago dalam melakukan <i>hand lettering</i> sehingga membuat saya tertarik dalam dunia <i>hand lettering</i> ini. Dari situ saya mulai belajar dari teman saya dan dengan meniru serta memodifikasi karya orang lain sampai akhirnya saya bisa membuat banyak karya sendiri. Lalu saya memiliki niat untuk mempublikasikan karya saya, akhirnya saya memilih instagram sebagai medianya dan saya membuat akun instagram dengan username <b>SiluetType</b> untuk mempublikasikan karya saya.</p>
+            </article>
+
+            <article id="gallery" class="card">
+                <div class="container">
+                    <h2>Gallery</h2>
+                    <div class="gallery-flex">
+                        <div class="photo-item">
+                            <a href="./deskripsi1.html"><img href src="./assets/img/1.jpg" alt=""></a>
+                        </div>
+                        <div class="photo-item">
+                            <a href="./deskripsi2.html"><img src="./assets/img/2.JPG" alt=""></a>
+                        </div>
+                        <div class="photo-item">
+                            <a href="deskripsi3.html"><img src="./assets/img/3.JPG" alt=""></a>
+                        </div>
+                        
+                        <div class="photo-item">
+                            <a href="./deskripsi4.html"><img src="./assets/img/4.jpg" alt=""></a>
+                        </div>
+                        <div class="photo-item">
+                            <a href="./deskripsi5.html"><img src="./assets/img/5.jpg" alt=""></a>
+                        </div>
+                        <div class="photo-item">
+                            <img src="./assets/img/6.jpg" onclick="comingSoon()" alt="">
+                        </div>
+                        
+                        <div class="photo-item">
+                            <img src="./assets/img/7.jpg" onclick="comingSoon()" alt="">
+                        </div>
+                        <div class="photo-item">
+                            <img src="./assets/img/8.png" onclick="comingSoon()" alt="">
+                        </div>
+                        <div class="photo-item">
+                            <img src="./assets/img/9.jpg" onclick="comingSoon()" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+
+            <aside id="contact" class="card">
+                <div class="container">
+                    <h2>Contact</h2>
+                    <div class="contact-flex">
+                        <div class="profile-photo">
+                            <img src="./assets/img/profile.png" alt="foto profil">
+                        </div>
+                        <div class="profile-contact">
+                            <table cellpadding="10">
+                                <tr>
+                                    <td>Nama</td>
+                                    <td>:</td>
+                                    <td>Anggit Ihsananto</td>
+                                </tr>
+                                <tr>
+                                    <td>Asal</td>
+                                    <td>:</td>
+                                    <td>Karawang</td>
+                                </tr>
+                                <tr>
+                                    <td>Hobi</td>
+                                    <td>:</td>
+                                    <td>Menggambar</td>
+                                </tr>
+                                <tr>
+                                    <td>Email</td>
+                                    <td>:</td>
+                                    <td>ihsananto.anggit@gmail.com</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-flex">
+                <div class="footer-item"><a href="https://www.instagram.com/siluettype/" target="_blank"><i class='bx bxl-instagram-alt' ></i></a></div>
+                <div class="footer-item"><a href="https://www.linkedin.com/in/anggit-ihsananto-60110921b/" target="_blank"><i class='bx bxl-linkedin-square'></i></a></div>
+                <div class="footer-item"><i id="email" onclick="emailCopy()" class='bx bxl-gmail'></i></div>
+                <div class="footer-item"><a href="https://facebook.com/anggit.ihsananto/" target="_blank"><i class='bx bxl-facebook'></i></a></div>
+            </div>
+            <div>
+                <p>Special thanks to:</p>
+                <p><b>Dicoding & IDCamp</b></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/main.js"></script>
+</body>
+</html>
