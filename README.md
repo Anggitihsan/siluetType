@@ -1,4 +1,6 @@
 # siluetType
 Final Dicoding Beginner FrontEnd WebDev Project
 
-https://siluet-type.vercel.app/
+## link to project
+- https://siluet-type.vercel.app/
+- https://anggitihsan.github.io/
